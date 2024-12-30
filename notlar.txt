@@ -1,2 +1,5 @@
 Halil 90
 Bünyamin 80
+Kaan 50
+Arda 120
+Anıl -10
