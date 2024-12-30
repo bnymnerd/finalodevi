@@ -51,4 +51,5 @@ jobs:
         
     - name: Push changes to degerlendirme branch
       run: |
+        git remote set-url origin https://github-actions:{{ secrets.GH_TOKEN }}@github.com/bnymnerd/finalodevi.git
         git push origin degerlendirme
