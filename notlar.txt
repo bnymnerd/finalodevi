@@ -5,3 +5,4 @@ Arda 120
 Anıl -10
 Ahmet 0
 şimşek -80
+ahmet -15
