@@ -38,6 +38,7 @@ jobs:
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         git checkout degerlendirme
+        git fetch origin degerlendirme
         git add sonuclar.txt
         git commit -m "Update sonuclar.txt after tests"
         git push origin degerlendirme
