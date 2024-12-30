@@ -1,2 +1,10 @@
 Halil A
 Bünyamin B
+Kaan F
+Arda Invalid Score
+Anıl Invalid Score
+Ahmet F
+şimşek Invalid Score
+ahmet Invalid Score
+bünyamin Invalid Score
+arda F
