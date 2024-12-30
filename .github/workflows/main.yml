@@ -49,7 +49,10 @@ jobs:
         git fetch --all  # Tüm remote branch bilgilerini al
         git checkout degerlendirme || git checkout -b degerlendirme origin/degerlendirme # Branch varsa geçiş yap, yoksa oluştur
         
+    - name: Set up Git remote with token
+      run: |
+        git remote set-url origin https://github-actions:${{ secrets.GH_TOKEN }}@github.com/bnymnerd/finalodevi.git
+
     - name: Push changes to degerlendirme branch
       run: |
-        git remote set-url origin https://github-actions:{{ secrets.GH_TOKEN }}@github.com/bnymnerd/finalodevi.git
         git push origin degerlendirme
