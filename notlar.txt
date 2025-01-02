@@ -1,10 +1,1 @@
-Halil 90
-Bünyamin 80
-Kaan 50
-Arda 120
-Anıl -10
-Ahmet 0
-şimşek -80
-ahmet -15
-bünyamin -20
-arda 45
+Ahmet 100
